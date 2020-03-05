@@ -1,6 +1,6 @@
 import React from "react";
 import CartItem from "./CartItem";
-const Cart = ({ cart }) => {
+const CartContainer = ({ cart }) => {
   if (cart.length === 0) {
     return (
       <section className="cart">
